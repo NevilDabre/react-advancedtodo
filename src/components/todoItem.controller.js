@@ -7,7 +7,7 @@ class TodoItem extends Component{
             <div>
                 <label className={className}>
                     <input type="checkbox" value={this.props.data.isCompleted} onChange={()=> this.props.handleChange(this.props.data.id)} />
-                    {this.props.data.name} {className}
+                    {this.props.data.name} - {this.props.data.due} 
                 </label>
             </div>
         )
