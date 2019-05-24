@@ -19,15 +19,17 @@
   color: white;
 }
 
-.App-link {
+.incomplete {
   color: #61dafb;
+  font-weight: 400;
+  font-size: 23px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.completed{
+  font-size: 23px;
+  font-weight: 400;
+  color: greenyellow;
+  text-decoration: line-through;
+  opacity: 0.5;
 }
